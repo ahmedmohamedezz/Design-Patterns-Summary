@@ -1,0 +1,10 @@
+- Composite Pattern : structural pattern that compose objects into tree structures to represent hierarchies with arbitary depth and width
+
+- Notes :
+. Use composite pattern when you want to treat the objects and composition of objects the same way
+
+. The composite pattern voilates solid principles like : LSP
+
+. The composite pattern can be implemented in 2 ways :
+    1. put the child related operations in the interface representing all components : you win uniformity over safety since you can treat all objects the same way , but you don't guarantee that clients mis-use the leaf components with child related operations
+    2. put the child related operations in composite components : you win safety over uniformity since you can guarantee the right use of each component , but you won't treat all objects the same way

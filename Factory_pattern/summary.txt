@@ -1,0 +1,7 @@
+- Factory pattern : creational design pattern that defines an interface for creating an object , but deffer instantiation to subclasses so they can decide which class to instantiate
+
+- Notes : 
+. Use the factory pattern when you have to choose from several objects and create one of them 
+. It also allows you to have different producers for different products
+. Factory pattern satisfies OO principles like : OCP , SRP , LSP 
+. Factory pattern obeys OO rules like : code to interface not an implementation , encapsulate what varies

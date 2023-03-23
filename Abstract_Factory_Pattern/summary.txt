@@ -1,0 +1,12 @@
+- Abstract Factory Method : creational design pattern that defines an interface for creating a family of related objects
+
+- Notes : 
+. Use the abstract factory when you want to create a family of related object , or when the system should be configured with a choice out of multiple ones , and also it can be used when the system has to be independent of objects creation
+
+. Abstract factory decouples the client code from the objects it creates 
+
+. In abstract factory we can easily add , modify , delete => the clients without affecting the choices the client choose from and vise versa ( also change choices )
+
+. Abstract factory satisfies OO principles like : code to interface rather than an implementation , encapsulate what varies
+
+. Abstract factory satisfies solid principles like : OCP , SRP , LSP , ISP

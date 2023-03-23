@@ -1,0 +1,15 @@
+- Observer Pattern : behavioral design pattern that defines one-to-many dependency between objects , such that when one objects changes it's state , it notifies the other objects
+
+- Notes :
+. Use the oberver pattern when your application needs to trace something , and keep track it's data
+
+. Observer pattern provide a decoupled design since the subject knows only that the observer implements a certain interface
+
+. We can easily change , or modify either the subject or the observers without breaking the code of the other
+
+. We can re-use observers and subjects independently from each other
+
+. Observer Pattern can be implemented using two models
+. Models : 
+    1. push model : the observer gets the information as parameter attributes
+    2. pull model : the observer gets the information through an object and pulls from it the data it needs

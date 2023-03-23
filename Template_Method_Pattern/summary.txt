@@ -1,0 +1,7 @@
+- Template Method : behavioral design pattern that defines the skeleton of an algorithm , deffering some steps to subclasses , so subclasses can redefine those steps without changing the algorithm structure
+
+- Notes :
+. Use the template method pattern when you have 2 or more algorithms that has a similar behaviors
+. Template method makes use of code-reuse since it encapsulates the shared steps between algorithms & make the others more abstract so each subclass can override them
+. Template method eases the modification of the algorithm since you would update only the base class
+. Template method allows easy extension , any new algorithms can extend the base class easily and override the methods that behaves differently

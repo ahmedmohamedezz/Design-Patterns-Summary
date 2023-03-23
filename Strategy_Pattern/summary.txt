@@ -1,0 +1,13 @@
+Strategy Pattern 
+-definition : behavioral pattern that defines a family of algorithms , and encapsulate them .
+
+- notes :
+. when we have several behaviors(algorithms of doing the samething ) , strategy pattern let you delegate the behavior you want .
+
+. it allows you to change behaviors at run time 
+
+. it's also good for code re-use , since you can use the same behavior with all clients and still code it once
+
+. strategy pattern decoupled the code , we can change the behaviors , add or remove them while not breaking the clients code , we can also change clients and behaviors code is not affected
+
+. the client should be aware of all behaviors and the differences between them , so sometimes it may get complicated

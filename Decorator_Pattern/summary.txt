@@ -1,0 +1,6 @@
+- Decorator Pattern : structural design pattern that attaches additional responsibilities to an object dynamically , providing a flexible alternative to subclassing for extending functionality
+
+- Notes :
+. Use the decorator pattern when you want to extend the functionality of an object at runtime
+
+. Use it as a good alternative to add all combinations subclasses ( to avoid class explosion )
